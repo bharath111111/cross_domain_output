@@ -1,1 +1,1 @@
-cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 10000 --can-app CANoe --can-iface-version 4
+cross_domain_logger_windows.exe --test-can --can-map --can-app CANoe --can-max-channels 64
