@@ -1,74 +1,7 @@
+cross_domain_logger_windows.exe --test-can --can-listen --can-channel 9 --can-app CANoe --can-iface-version 4 --can-log-file can_channel9_stream.log
+Run for fixed duration (example 60s):
 
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 10000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 10000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x9E388027 dlc=2 data=[00, 00]
-CAN capture complete on channel 9
+cross_domain_logger_windows.exe --test-can --can-listen --can-channel 9 --can-app CANoe --can-iface-version 4 --can-duration-ms 60000 --can-log-file can_channel9_stream.log
+For channel 10:
 
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 100000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 100000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x423 dlc=4 data=[00, 00, 00, 00]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 1000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 1000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x407 dlc=8 data=[00, 00, 00, 00, 00, 00, 00, 00]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 10000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 10000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x4EA dlc=8 data=[00, 00, 00, 00, 00, 00, 00, 00]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 100000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 100000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x4E5 dlc=8 data=[00, 00, 00, 04, 00, 00, 00, 00]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 1000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 1000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x5B9 dlc=8 data=[00, 00, FF, C0, 00, 00, 00, 50]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 10000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 9 for 10000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=9 (appCh=9) id=0x407 dlc=8 data=[00, 00, 00, 00, 00, 00, 00, 00]
-CAN capture complete on channel 9
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 10 --can-timeout-ms 10000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 10 for 10000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=3 (appCh=10) id=0x8A dlc=4 data=[00, 00, 27, 10]
-CAN capture complete on channel 10
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 10 --can-timeout-ms 100000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 10 for 100000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=3 (appCh=10) id=0x1B1 dlc=8 data=[00, 00, 40, 00, 00, 00, 00, 00]
-CAN capture complete on channel 10
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 10 --can-timeout-ms 100000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 10 for 100000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=3 (appCh=10) id=0x6BF dlc=8 data=[25, F8, C3, FF, FF, FF, FF, FF]
-CAN capture complete on channel 10
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 10 --can-timeout-ms 100000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 10 for 100000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=3 (appCh=10) id=0x8A dlc=4 data=[00, 00, 27, 10]
-CAN capture complete on channel 10
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-channel 10 --can-timeout-ms 100000000000 --can-app CANoe --can-iface-version 4
-vxlapi driver opened successfully
-Listening on CAN channel 10 for 100000000000 ms (app: CANoe, iface: 4)...
-Received CAN channel=3 (appCh=10) id=0x8A dlc=4 data=[00, 00, 27, 10]
-CAN capture complete on channel 10
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>
+cross_domain_logger_windows.exe --test-can --can-listen --can-channel 10 --can-app CANoe --can-iface-version 4 --can-log-file can_channel10_stream.log
