@@ -1,0 +1,11 @@
+appCh=0 -> hwType=120 hwIndex=0 hwChannel=12 mask=0x1000-> vn 1670 1 -> FD_CANW
+appCh=1 -> hwType=120 hwIndex=0 hwChannel=5 mask=0x20-> vn 1670 1 ->FD_CAN5
+appCh=2 -> hwType=120 hwIndex=1 hwChannel=6 mask=0x20000000000 -> vn 1670 2 -> FD_CAN9
+appCh=3 -> hwType=120 hwIndex=1 hwChannel=12 mask=0x800000000000-> vn 1670 2 -> FD_CAN13
+appCh=4 -> hwType=120 hwIndex=1 hwChannel=0 mask=0x800000000-> vn 1670 2 -> FD_CAN14
+appCh=5 -> hwType=120 hwIndex=0 hwChannel=0 mask=0x1 -> vn 1670 1 -> FD_CAN15
+appCh=6 -> hwType=120 hwIndex=0 hwChannel=6 mask=0x40-> vn 1670 1 -> FD_CAN17
+appCh=7 -> hwType=120 hwIndex=0 hwChannel=11 mask=0x800-> vn 1670 1 -> FD_CAN18
+appCh=8 -> hwType=120 hwIndex=0 hwChannel=2 mask=0x4-> vn 1670 1 -> FD_CAN20
+appCh=9 -> hwType=120 hwIndex=0 hwChannel=9 mask=0x200-> vn 1670 1 -> FD_CAN21
+appCh=10 -> hwType=120 hwIndex=0 hwChannel=3 mask=0x8-> vn 1670 1 -> HS_CAN1
