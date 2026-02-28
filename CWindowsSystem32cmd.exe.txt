@@ -1,7 +1,13 @@
-cross_domain_logger_windows.exe --test-can --can-listen --can-channel 9 --can-app CANoe --can-iface-version 4 --can-log-file can_channel9_stream.log
-Run for fixed duration (example 60s):
-
-cross_domain_logger_windows.exe --test-can --can-listen --can-channel 9 --can-app CANoe --can-iface-version 4 --can-duration-ms 60000 --can-log-file can_channel9_stream.log
-For channel 10:
-
-cross_domain_logger_windows.exe --test-can --can-listen --can-channel 10 --can-app CANoe --can-iface-version 4 --can-log-file can_channel10_stream.log
+C:\Users\se74117.CAG\Downloads\cross_domain_output-main (2)\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>
+C:\Users\se74117.CAG\Downloads\cross_domain_output-main (2)\cross_domain_output-main\cross_domain_logger_windows_can_test_bundle>cross_domain_logger_windows.exe --test-can --can-listen --can-channel 10 --can-app CANoe --can-iface-version 4 --can-log-file can_channel10_stream.log
+vxlapi driver opened successfully
+Listening continuously on CAN app-channel 10. Press Ctrl+C to stop.
+frame=1 channel=3 id=0x1CA dlc=4 data=[00, 00, 7F, 00]
+frame=2 channel=3 id=0x3BA dlc=8 data=[00, 00, 00, 00, 00, 00, 00, 00]
+frame=3 channel=3 id=0x8A dlc=4 data=[00, 00, 27, 10]
+frame=4 channel=3 id=0x9E388080 dlc=2 data=[00, 00]
+frame=5 channel=3 id=0x9E38808B dlc=2 data=[00, 00]
+frame=6 channel=3 id=0x9E38808C dlc=2 data=[00, 00]
+frame=7 channel=3 id=0x8A dlc=4 data=[00, 00, 27, 10]
+frame=8 channel=3 id=0x40D dlc=8 data=[00, 00, 40, 01, 00, 00, 00, 00]
+frame=9 channel=3 id=0x1B1 dlc=8 data=[00, 00, 40, 00, 00, 00, 00, 00]
