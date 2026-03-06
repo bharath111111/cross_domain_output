@@ -77,3 +77,7 @@ ETH_HPC_IVI_High_ETH.log
 
 
 same for remaing cans
+
+
+
+python [controldesk_capture.py](http://_vscodecontentref_/2) --probe-api --probe-out CAN_LOGS\\controldesk_api_probe.txt
