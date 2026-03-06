@@ -1,4 +1,4 @@
-Generated: 2026-03-06T02:20:23
+Generated: 2026-03-06T02:25:00
 Python: 3.9.16.1 (remotes/origin/releases/2023A_Python39:2d5a613, Apr  5 2023, 11:37:53) [MSC v.1916 64 bit (AMD64)]
 Platform: Windows-10-10.0.22631-SP0
 
@@ -8,13 +8,17 @@ Platform: Windows-10-10.0.22631-SP0
   FAIL Dispatch: dSPACE.ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
   FAIL Dispatch: AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
   FAIL Dispatch: dSPACE.AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  OK Dispatch: dSPACE.MeasurementDataAPI.Measurements
+  OK Dispatch: dSPACE.MeasurementDataAPI.Measurements.2023-A
 
 [ProgIDActiveObject]
-  OK ActiveObject: ControlDeskNG.Application (<PyIUnknown at 0x0000026C607C8280 with obj at 0x0000026C5FA10B58>)
+  OK ActiveObject: ControlDeskNG.Application (<PyIUnknown at 0x00000205177994D0 with obj at 0x00000205177AF028>)
   FAIL ActiveObject: ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
   FAIL ActiveObject: dSPACE.ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
   FAIL ActiveObject: AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
   FAIL ActiveObject: dSPACE.AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL ActiveObject: dSPACE.MeasurementDataAPI.Measurements -> (-2147221021, 'Operation unavailable', None, None)
+  FAIL ActiveObject: dSPACE.MeasurementDataAPI.Measurements.2023-A -> (-2147221021, 'Operation unavailable', None, None)
 
 [ControlDeskNG.Application]
   method: ActiveExperiment
@@ -114,6 +118,78 @@ ActiveExperiment.Name: 'Experiment_STLAB_A2B'
 [ControlDeskNG.ActiveExperiment.SimulationTimeGroups] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
 [ControlDeskNG.ActiveExperiment.CalculatedVariablesConfiguration] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[dSPACE.MeasurementDataAPI.Measurements]
+  method: Add
+  method: AddRef
+  property: Count
+  method: FormatOptions
+  method: GetIDsOfNames
+  method: GetTypeInfo
+  method: GetTypeInfoCount
+  method: Invoke
+  method: Item
+  method: Load
+  method: QueryInterface
+  method: Release
+  method: Remove
+  method: RemoveAll
+  method: SaveAll
+
+[dSPACE.MeasurementDataAPI.Measurements.CommonMemberCheck]
+  property: Count
+  method: Item
+  missing: Open (dSPACE.MeasurementDataAPI.Measurements.Open)
+  missing: Create (dSPACE.MeasurementDataAPI.Measurements.Create)
+  method: Load
+  method: Add
+  missing: Start (dSPACE.MeasurementDataAPI.Measurements.Start)
+  missing: Stop (dSPACE.MeasurementDataAPI.Measurements.Stop)
+  missing: Begin (dSPACE.MeasurementDataAPI.Measurements.Begin)
+  missing: End (dSPACE.MeasurementDataAPI.Measurements.End)
+  missing: Save (dSPACE.MeasurementDataAPI.Measurements.Save)
+  missing: SaveAs (dSPACE.MeasurementDataAPI.Measurements.SaveAs)
+  missing: Export (dSPACE.MeasurementDataAPI.Measurements.Export)
+  missing: Close (dSPACE.MeasurementDataAPI.Measurements.Close)
+  missing: FileName (dSPACE.MeasurementDataAPI.Measurements.FileName)
+  missing: Path (dSPACE.MeasurementDataAPI.Measurements.Path)
+  missing: Version (dSPACE.MeasurementDataAPI.Measurements.Version)
+
+[dSPACE.MeasurementDataAPI.Measurements.2023-A]
+  method: Add
+  method: AddRef
+  property: Count
+  method: FormatOptions
+  method: GetIDsOfNames
+  method: GetTypeInfo
+  method: GetTypeInfoCount
+  method: Invoke
+  method: Item
+  method: Load
+  method: QueryInterface
+  method: Release
+  method: Remove
+  method: RemoveAll
+  method: SaveAll
+
+[dSPACE.MeasurementDataAPI.Measurements.2023-A.CommonMemberCheck]
+  property: Count
+  method: Item
+  missing: Open (dSPACE.MeasurementDataAPI.Measurements.2023-A.Open)
+  missing: Create (dSPACE.MeasurementDataAPI.Measurements.2023-A.Create)
+  method: Load
+  method: Add
+  missing: Start (dSPACE.MeasurementDataAPI.Measurements.2023-A.Start)
+  missing: Stop (dSPACE.MeasurementDataAPI.Measurements.2023-A.Stop)
+  missing: Begin (dSPACE.MeasurementDataAPI.Measurements.2023-A.Begin)
+  missing: End (dSPACE.MeasurementDataAPI.Measurements.2023-A.End)
+  missing: Save (dSPACE.MeasurementDataAPI.Measurements.2023-A.Save)
+  missing: SaveAs (dSPACE.MeasurementDataAPI.Measurements.2023-A.SaveAs)
+  missing: Export (dSPACE.MeasurementDataAPI.Measurements.2023-A.Export)
+  missing: Close (dSPACE.MeasurementDataAPI.Measurements.2023-A.Close)
+  missing: FileName (dSPACE.MeasurementDataAPI.Measurements.2023-A.FileName)
+  missing: Path (dSPACE.MeasurementDataAPI.Measurements.2023-A.Path)
+  missing: Version (dSPACE.MeasurementDataAPI.Measurements.2023-A.Version)
 
 [RegistryScan]
   Root: HKCR
