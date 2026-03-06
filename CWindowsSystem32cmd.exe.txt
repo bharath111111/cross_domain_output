@@ -1,15 +1,79 @@
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06>cross_domain_logger_windows.exe --test-can --can-backend controldesk --can-map
-ControlDesk mapping error: ControlDesk platform listing failed: Traceback (most recent call last):
-  File "C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06\controldesk_capture.py", line 86, in <module>
-    def capture_all(duration_ms: int | None, output_dir: str, poll_ms: int, log_format: str) -> int:
-TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
-
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06>cross_domain_logger_windows.exe --test-can --can-backend controldesk --can-listen-all --can-output-dir CAN_LOGS --can-log-format asc
+C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06_fixed>cross_domain_logger_windows.exe --test-can --can-backend controldesk --can-listen-all --can-output-dir CAN_LOGS --can-log-format asc
+cd-capture started version=23.1p4 format=asc
+cd-capture experiment=Experiment_STLAB_A2B
+cd-capture output=CAN_LOGS\controldesk_bus_capture.log
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
+cd-warn index=29 error=(-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+cd-capture tick entries=27
 Traceback (most recent call last):
-  File "C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06\controldesk_capture.py", line 86, in <module>
-    def capture_all(duration_ms: int | None, output_dir: str, poll_ms: int, log_format: str) -> int:
-TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
-ControlDesk listen-all error: ControlDesk script exited with status exit code: 1
+  File "C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06_fixed\controldesk_capture.py", line 156, in <module>
+    raise SystemExit(main())
+  File "C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06_fixed\controldesk_capture.py", line 150, in main
+    return capture_all(args.duration_ms, args.output_dir, args.poll_ms, args.format)
+  File "C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06_fixed\controldesk_capture.py", line 133, in capture_all
+    time.sleep(max(0.1, poll_ms / 1000.0))
+KeyboardInterrupt
+^C
+C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06_fixed>
 
-C:\Users\se74117.CAG\Downloads\cross_domain_output-main\cross_domain_output-main\cross_domain_logger_controldesk_shareable_2026_03_06>
+
+Logs generated but no data, below are samples from test bench run.
+
+ETH_HPC_IVI_High_ETH.log
+2026-03-06T01:30:43.934 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:44.980 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:46.042 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:47.127 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:48.193 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:49.262 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:50.334 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:51.397 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:52.465 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:53.537 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:54.600 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:55.668 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:56.735 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:57.801 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:58.905 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:30:59.975 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:01.043 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:02.111 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:03.180 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:04.241 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:05.304 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:06.371 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+2026-03-06T01:31:07.441 ch=19 bus=ETH name=HPC_IVI_High_ETH platformIndex=19
+
+
+2026-03-06T01:30:08.235 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:09.301 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:10.349 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:11.404 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:12.453 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:13.502 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:14.553 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:15.600 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:16.650 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+2026-03-06T01:30:17.701 ch=6 bus=CAN name=FD-CAN21 platformIndex=6
+
+
+same for remaing cans
