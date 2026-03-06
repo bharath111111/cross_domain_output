@@ -87,3 +87,36 @@ Active Experiment: Experiment_STLAB_A2B
   method: Remove
   method: RemoveAll
   method: Rename
+
+[DeepMethodProbe]
+  Safely invoking likely zero-arg accessors to find recorder/measurement APIs
+
+[Application.MeasurementDataManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.BusNavigator] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.PlatformManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.VariablesManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.DataSetManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.CalibrationManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.DiagnosticsManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.ProjectManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.Log] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[Application.TimeCursorManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ActiveExperiment.Files] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ActiveExperiment.Mappings] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ActiveExperiment.Platforms] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ActiveExperiment.SimulationTimeGroups] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ActiveExperiment.CalculatedVariablesConfiguration] <invoke failed: (-2147352573, 'Member not found.', None, None)>
