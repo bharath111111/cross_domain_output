@@ -1,0 +1,89 @@
+ControlDesk Version: 23.1p4
+Active Experiment: Experiment_STLAB_A2B
+
+[Application]
+  method: ActiveExperiment
+  method: ActiveProject
+  method: ActiveProjectRoot
+  method: BusNavigator
+  method: CalibrationManagement
+  property: CommandLineArguments
+  method: DataSetManagement
+  method: DiagnosticsManagement
+  method: Environment
+  method: Events
+  method: Execute
+  method: Interpreter
+  method: LayoutManagement
+  method: Log
+  method: MainWindow
+  method: MeasurementDataManagement
+  property: Name
+  method: OpenExperiment
+  method: OpenProject
+  method: OperatorMode
+  method: PlatformManagement
+  method: ProgressBarManagement
+  method: ProjectManagement
+  method: ProjectRoots
+  method: Projects
+  method: Quit
+  method: SignalEditor
+  method: TimeCursorManagement
+  method: UserFunctions
+  method: UserSettings
+  method: VariablesManagement
+  property: Version
+  method: VersionInformation
+  method: XILAPIEESPort
+
+[ActiveExperiment]
+  method: AddRef
+  method: CalculatedVariablesConfiguration
+  method: CustomDataDictionary
+  property: Description
+  property: DirectoryName
+  method: Events
+  method: Export
+  property: FileName
+  method: Files
+  property: FullPath
+  method: GetDefaultFolder
+  method: GetIDsOfNames
+  method: GetTypeInfo
+  method: GetTypeInfoCount
+  method: Invoke
+  method: Mappings
+  property: Name
+  method: Platforms
+  method: QueryInterface
+  method: Release
+  method: Rename
+  method: SaveAs
+  method: SimulationTimeGroups
+
+[Application.Measurement] <unavailable>
+
+[Application.Recorder] <unavailable>
+
+[Application.Recording] <unavailable>
+
+[ActiveExperiment.Measurement] <unavailable>
+
+[ActiveExperiment.Recorder] <unavailable>
+
+[ActiveExperiment.Recording] <unavailable>
+
+[ActiveExperiment.Platforms]
+  method: Add
+  method: AddExistingPlatform
+  method: AddExistingWithCustomName
+  method: AddProjectPlatform
+  method: AddWithCustomName
+  method: Contains
+  property: Count
+  method: GetEnumerator
+  method: Item
+  method: Remove
+  method: RemoveAll
+  method: Rename
