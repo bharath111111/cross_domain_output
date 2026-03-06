@@ -1,1 +1,63 @@
-cross_domain_logger_windows.exe --test-can --can-channel 9 --can-timeout-ms 10000 --can-app CANoe --can-iface-version 4
+>>> import win32com.client
+>>> cd = win32com.client.Dispatch("ControlDeskNG.Application")
+>>> print(cd.Version)
+23.1p4
+>>> import win32com.client
+>>>
+>>> cd = win32com.client.Dispatch("ControlDeskNG.Application")
+>>>
+>>> print("ControlDesk Version:", cd.Version)
+ControlDesk Version: 23.1p4
+>>> print("Active Experiment:", cd.ActiveExperiment.Name)
+Active Experiment: Experiment_STLAB_A2B
+>>> exp = cd.ActiveExperiment
+>>>
+>>> for i in range(1, exp.Platforms.Count + 1):
+...     p = exp.Platforms.Item(i)
+...     print("Platform:", p.Name)
+...
+Platform: FD-CAN14
+Platform: FD-CAN15
+Platform: FD-CANW
+Platform: FD-CAN5
+Platform: FD-CAN17
+Platform: FD-CAN21
+Platform: HS-CAN4
+Platform: FD-CAN20
+Platform: LIN_ZCU_F1
+Platform: LIN_ZCU_F2
+Platform: LIN_ZCU_F3
+Platform: LIN_ZCU_CL1
+Platform: LIN_ZCU_CL4
+Platform: LIN_ZCU_CL8
+Platform: LIN_ZCU_CL3
+Platform: LIN_ZCU_CL5
+Platform: LIN_ZCU_CL6
+Platform: LIN_ZCU_CL7
+Platform: HPC_IVI_High_ETH
+Platform: ECUDiagnostics
+Platform: Ethernet
+Platform: LIN_ZCU_CL9
+Platform: HS-CAN1
+Platform: FD-CAN18
+Platform: ZCU_F_ETH
+Platform: ZCU_CS_ETH
+Platform: FD-CAN13
+Platform: FD-CAN9
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "<COMObject <unknown>>", line 2, in Item
+pywintypes.com_error: (-2147352567, 'Exception occurred.', (0, 'dSPACE.PlatformManagement.Foundation', 'Value does not fall within the expected range.', None, 0, -2147024809), None)
+>>>
+>>> platform = exp.Platforms.Item(1)
+>>>
+>>> for i in range(1, platform.Variables.Count + 1):
+...     var = platform.Variables.Item(i)
+...     print(var.Name)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Program Files\Python39\lib\site-packages\win32com\client\dynamic.py", line 647, in __getattr__
+    raise AttributeError("%s.%s" % (self._username_, attr))
+AttributeError: Item.Variables
+>>>
