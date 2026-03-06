@@ -1,7 +1,22 @@
-ControlDesk Version: 23.1p4
-Active Experiment: Experiment_STLAB_A2B
+Generated: 2026-03-06T02:20:23
+Python: 3.9.16.1 (remotes/origin/releases/2023A_Python39:2d5a613, Apr  5 2023, 11:37:53) [MSC v.1916 64 bit (AMD64)]
+Platform: Windows-10-10.0.22631-SP0
 
-[Application]
+[ProgIDDispatch]
+  OK Dispatch: ControlDeskNG.Application
+  FAIL Dispatch: ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL Dispatch: dSPACE.ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL Dispatch: AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL Dispatch: dSPACE.AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+
+[ProgIDActiveObject]
+  OK ActiveObject: ControlDeskNG.Application (<PyIUnknown at 0x0000026C607C8280 with obj at 0x0000026C5FA10B58>)
+  FAIL ActiveObject: ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL ActiveObject: dSPACE.ControlDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL ActiveObject: AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+  FAIL ActiveObject: dSPACE.AutomationDesk.Application -> (-2147221005, 'Invalid class string', None, None)
+
+[ControlDeskNG.Application]
   method: ActiveExperiment
   method: ActiveProject
   method: ActiveProjectRoot
@@ -37,7 +52,35 @@ Active Experiment: Experiment_STLAB_A2B
   method: VersionInformation
   method: XILAPIEESPort
 
-[ActiveExperiment]
+[ControlDeskNG.Application.ActiveExperiment] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.ActiveProject] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.MeasurementDataManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.BusNavigator] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.PlatformManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.VariablesManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.ProjectManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.DataSetManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.DiagnosticsManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.CalibrationManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.TimeCursorManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.Log] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+[ControlDeskNG.Application.XILAPIEESPort] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+
+ActiveExperiment.Name: 'Experiment_STLAB_A2B'
+
+[ControlDeskNG.ActiveExperiment]
   method: AddRef
   method: CalculatedVariablesConfiguration
   method: CustomDataDictionary
@@ -62,61 +105,34 @@ Active Experiment: Experiment_STLAB_A2B
   method: SaveAs
   method: SimulationTimeGroups
 
-[Application.Measurement] <unavailable>
+[ControlDeskNG.ActiveExperiment.Platforms] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
-[Application.Recorder] <unavailable>
+[ControlDeskNG.ActiveExperiment.Files] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
-[Application.Recording] <unavailable>
+[ControlDeskNG.ActiveExperiment.Mappings] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
-[ActiveExperiment.Measurement] <unavailable>
+[ControlDeskNG.ActiveExperiment.SimulationTimeGroups] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
-[ActiveExperiment.Recorder] <unavailable>
+[ControlDeskNG.ActiveExperiment.CalculatedVariablesConfiguration] <invoke failed: (-2147352573, 'Member not found.', None, None)>
 
-[ActiveExperiment.Recording] <unavailable>
+[RegistryScan]
+  Root: HKCR
+    ControlDeskNG.Application
+    ControlDeskNG.Application.2023-A
+    ControlDeskNG.D3System202
+    ControlDeskNG.D3System202.2023-A
+    ControlDeskNG.MC3System
+    ControlDeskNG.MC3System.2023-A
+    ControlDeskNG.MCValue
+    ControlDeskNG.MCValue.2023-A
+    dSPACE.MeasurementDataAPI.Measurements
+    dSPACE.MeasurementDataAPI.Measurements.2023-A
+    dSPACE.SessionManager.InstallationSetServer.2
+    dspacehelp
+    dSPACEHelp.Application.1
+    dSPACEHelp.Application.1.1
 
-[ActiveExperiment.Platforms]
-  method: Add
-  method: AddExistingPlatform
-  method: AddExistingWithCustomName
-  method: AddProjectPlatform
-  method: AddWithCustomName
-  method: Contains
-  property: Count
-  method: GetEnumerator
-  method: Item
-  method: Remove
-  method: RemoveAll
-  method: Rename
-
-[DeepMethodProbe]
-  Safely invoking likely zero-arg accessors to find recorder/measurement APIs
-
-[Application.MeasurementDataManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.BusNavigator] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.PlatformManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.VariablesManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.DataSetManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.CalibrationManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.DiagnosticsManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.ProjectManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.Log] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[Application.TimeCursorManagement] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[ActiveExperiment.Files] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[ActiveExperiment.Mappings] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[ActiveExperiment.Platforms] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[ActiveExperiment.SimulationTimeGroups] <invoke failed: (-2147352573, 'Member not found.', None, None)>
-
-[ActiveExperiment.CalculatedVariablesConfiguration] <invoke failed: (-2147352573, 'Member not found.', None, None)>
+[Notes]
+  - 'Member not found' during invocation usually means property-only COM member; access style differs.
+  - If recorder APIs are present, they commonly appear under MeasurementDataManagement or project/experiment recorder objects.
+  - Share this file to wire exact start/stop/export automation.
